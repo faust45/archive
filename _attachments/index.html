@@ -4,6 +4,29 @@
     <title>Generated CouchApp</title>
     <link rel="stylesheet" href="style/main.css" type="text/css">
 
+  </head>
+  <body>
+    <div class="main">
+      <div id="all-content-left" class="column-left">
+        <h1 aligne="center">Welcome Gude ;)</h1>
+        <p>It's a simple upload App.</p>
+
+        <form id="cool" enctype="multipart/form-data" action="" method="POST">
+          <input type="file" name="_attachments">
+          <input type="hidden" name="_rev" value="3-5753e17308b1b0dd4b1cd3bf3e49cd37">
+          <div id="progress">&nbsp;</div>
+          <div id="upload">
+            <a id="start_upload" href="#">Start upload</a>
+          </div>
+        </form>
+      </div>
+
+      <div id="all-content-right" class="column-right">
+        <ul id="file_list"></ul> 
+      </div>
+    </div>
+  </body>
+
     <script src="/_utils/script/json2.js"></script>
     <script src="/_utils/script/jquery.js?1.3.1"></script>
     <script src="/_utils/script/jquery.couch.js?0.9.0"></script>
@@ -13,18 +36,7 @@
     <script src="vendor/couchapp/jquery.pathbinder.js"></script>
     <script src="vendor/mustache/jquery.mustache.js"></script>
     <script src="scripts/app.js"></script>
+    <script src="scripts/jquery.form.js"></script>
   
-  </head>
-  <body>
-    <h1 aligne="center">Welcome Gude ;)</h1>
-    <div id="account"></div>
-    <div id="profile"></div>
-    
-
-    <div id="actions">
-      <a href="#sayhello">Say Hello</a>
-    </div>
-    <div id="greeting"></div>
-    
-  </body>
+  
 </html>

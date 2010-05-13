@@ -1,1 +1,23 @@
 /* add styles here */
+
+div#progress {
+  background: url(../images/progress.gif) 0 0 no-repeat;
+  margin-top: 10;
+  visibility: hidden;
+}
+
+#all-content-left {
+margin:0;
+width:30%;
+}
+
+#all-content-right  {
+overflow:hidden;
+width:40%;
+border-left:  black 4px solid;
+}
+
+.column-left, .column-right {
+float:left;
+}
+
